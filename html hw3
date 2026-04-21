@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DePaul Voting Research</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>DePaul Voting Research</h1>
+
+    <p class="blurb">Basic Research Poll</p>
+
+    <img src="h37D1F42F.jpg" alt="Voting Image" width="300" height="200">
+
+    <form>
+        <!-- Name -->
+        <label for="name">Enter your name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <!-- Email -->
+        <label for="email">Enter your email address:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+
+        <!-- State -->
+        <label for="state">Select your home state:</label><br>
+        <select id="state" name="state">
+            <option value="IL">Illinois</option>
+            <option value="MI">Michigan</option>
+            <option value="WI">Wisconsin</option>
+            <option value="IN">Indiana</option>
+        </select><br><br>
+
+        <!-- Political Affiliation -->
+        <label>What is your basic political affiliation?</label><br>
+        <input type="radio" name="affiliation" value="Democrat"> Democrat<br>
+        <input type="radio" name="affiliation" value="Republican"> Republican<br>
+        <input type="radio" name="affiliation" value="Independent"> Independent<br>
+        <input type="radio" name="affiliation" value="Other"> Other / Undecided<br><br>
+
+        <!-- Registered to Vote -->
+        <input type="checkbox" id="registered" name="registered">
+        <label for="registered">Check here if you are registered to vote</label><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit my Information</button>
+    </form>
+
+    <!--
+    D2L sometimes shows a 0 for assignments or quizzes if the assignment has not yet been graded,
+    if there was a submission issue, or if the instructor has not released the scores yet. It may
+    also occur if a required submission (such as a file upload or URL) was missing.
+    -->
+
+</body>
+</html>
